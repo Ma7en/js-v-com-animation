@@ -1,0 +1,376 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start anim all */
+.anim {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.anim > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* bast background-color 
+background-color: #15212d;
+
+
+
+*/
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 1 */
+
+.anim-1 {
+    background: #111;
+}
+
+.anim-1 section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.anim-1 section .row {
+    position: relative;
+    top: -50%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 64px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+
+.anim-1 section .row div {
+    animation: a1animate1 80s linear infinite;
+    -webkit-animation: a1animate1 80s linear infinite;
+    animation-delay: -80s;
+}
+
+.anim-1 section .row div:nth-child(2) {
+    animation: a1animate2 80s linear infinite;
+    -webkit-animation: a1animate2 80s linear infinite;
+    animation-delay: -40s;
+} 
+
+@keyframes a1animate1 {
+    0% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+}
+
+@keyframes a1animate2 {
+    0% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+
+    100% {
+        transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+}
+}
+
+
+
+.anim-1 section .row:nth-child(even) div {
+    animation: a1animate3 80s linear infinite;
+    -webkit-animation: a1animate3 80s linear infinite;
+    animation-delay: -80s;
+}
+
+.anim-1 section .row:nth-child(even) div:nth-child(2) {
+    animation: a1animate4 80s linear infinite;
+    -webkit-animation: a1animate4 80s linear infinite;
+    animation-delay: -40s;
+} 
+
+@keyframes a1animate3 {
+    0% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+
+    100% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+}
+}
+
+@keyframes a1animate4 {
+    0% {
+        transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+}
+
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+}
+
+.anim-1 section i {
+    cursor: default;
+    color: rgb(0, 0, 0, 0.5);
+    padding: 0 5px;
+    user-select: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.anim-1 section i:hover {
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
+    transition: 0s;
+    -webkit-transition: 0s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
+}
+
+
+
+
+/* end anim 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 2 */
+
+
+
+/* end anim 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 3 */
+
+
+
+/* end anim 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 4 */
+
+
+
+/* end anim 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 5 */
+
+
+
+/* end anim 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 6 */
+
+
+
+/* end anim 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 7 */
+
+
+
+/* end anim 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 8 */
+
+
+
+/* end anim 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 9 */
+
+
+
+/* end anim 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 10 */
+
+
+
+/* end anim 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start anim 11 */
+
+
+
+/* end anim 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
